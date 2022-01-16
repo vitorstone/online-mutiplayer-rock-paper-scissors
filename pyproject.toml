@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "online-multiplayer-game"
+version = "0.1.0"
+description = ""
+authors = ["Vitor Stone <vitor.aragao.stone@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <3.11"
+pygame = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+mypy = "^0.931"
+black = {version = "^21.12b0", allow-prereleases = true}
+pyinstaller = "^4.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
